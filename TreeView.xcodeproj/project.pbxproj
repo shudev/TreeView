@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FE55BD0173F9647005DCFBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE55BCF173F9647005DCFBE /* UIKit.framework */; };
+		1FE55BD2173F9647005DCFBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE55BD1173F9647005DCFBE /* Foundation.framework */; };
+		1FE55BD4173F9647005DCFBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE55BD3173F9647005DCFBE /* CoreGraphics.framework */; };
+		1FE55BDA173F9647005DCFBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FE55BD8173F9647005DCFBE /* InfoPlist.strings */; };
+		1FE55BDC173F9647005DCFBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE55BDB173F9647005DCFBE /* main.m */; };
+		1FE55BE0173F9647005DCFBE /* SHUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE55BDF173F9647005DCFBE /* SHUAppDelegate.m */; };
+		1FE55BE2173F9647005DCFBE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE55BE1173F9647005DCFBE /* Default.png */; };
+		1FE55BE4173F9647005DCFBE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE55BE3173F9647005DCFBE /* Default@2x.png */; };
+		1FE55BE6173F9647005DCFBE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE55BE5173F9647005DCFBE /* Default-568h@2x.png */; };
+		1FE55BEC173F9647005DCFBE /* SHUViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE55BEA173F9647005DCFBE /* SHUViewController_iPhone.xib */; };
+		1FE55BEF173F9647005DCFBE /* SHUViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE55BED173F9647005DCFBE /* SHUViewController_iPad.xib */; };
+		1FE55C05173F96C1005DCFBE /* SHUTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE55BF9173F96C1005DCFBE /* SHUTreeView.m */; };
+		1FE55C06173F96C1005DCFBE /* SHUTreeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE55BFB173F96C1005DCFBE /* SHUTreeViewCell.m */; };
+		1FE55C09173F96C1005DCFBE /* SHUTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE55C01173F96C1005DCFBE /* SHUTreeNode.m */; };
+		1FE55C11173F9707005DCFBE /* directory44.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE55C0C173F9707005DCFBE /* directory44.png */; };
+		1FE55C12173F9707005DCFBE /* file44.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE55C0D173F9707005DCFBE /* file44.png */; };
+		1FE55C13173F9707005DCFBE /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE55C0E173F9707005DCFBE /* selected.png */; };
+		1FE55C14173F9707005DCFBE /* triangleSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE55C0F173F9707005DCFBE /* triangleSmall.png */; };
+		1FE55C15173F9707005DCFBE /* unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE55C10173F9707005DCFBE /* unselected.png */; };
+		1FE55C1A173FBD65005DCFBE /* SHUTreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE55C19173FBD65005DCFBE /* SHUTreeViewController.m */; };
+		1FE55C1C173FC10B005DCFBE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE55C1B173FC10B005DCFBE /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FE55BCC173F9647005DCFBE /* TreeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE55BCF173F9647005DCFBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FE55BD1173F9647005DCFBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FE55BD3173F9647005DCFBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FE55BD7173F9647005DCFBE /* TreeView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TreeView-Info.plist"; sourceTree = "<group>"; };
+		1FE55BD9173F9647005DCFBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FE55BDB173F9647005DCFBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FE55BDD173F9647005DCFBE /* TreeView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TreeView-Prefix.pch"; sourceTree = "<group>"; };
+		1FE55BDE173F9647005DCFBE /* SHUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHUAppDelegate.h; sourceTree = "<group>"; };
+		1FE55BDF173F9647005DCFBE /* SHUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHUAppDelegate.m; sourceTree = "<group>"; };
+		1FE55BE1173F9647005DCFBE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1FE55BE3173F9647005DCFBE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1FE55BE5173F9647005DCFBE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1FE55BEB173F9647005DCFBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SHUViewController_iPhone.xib; sourceTree = "<group>"; };
+		1FE55BEE173F9647005DCFBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SHUViewController_iPad.xib; sourceTree = "<group>"; };
+		1FE55BF8173F96C1005DCFBE /* SHUTreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHUTreeView.h; sourceTree = "<group>"; };
+		1FE55BF9173F96C1005DCFBE /* SHUTreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHUTreeView.m; sourceTree = "<group>"; };
+		1FE55BFA173F96C1005DCFBE /* SHUTreeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHUTreeViewCell.h; sourceTree = "<group>"; };
+		1FE55BFB173F96C1005DCFBE /* SHUTreeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHUTreeViewCell.m; sourceTree = "<group>"; };
+		1FE55C00173F96C1005DCFBE /* SHUTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHUTreeNode.h; sourceTree = "<group>"; };
+		1FE55C01173F96C1005DCFBE /* SHUTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHUTreeNode.m; sourceTree = "<group>"; };
+		1FE55C0C173F9707005DCFBE /* directory44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = directory44.png; sourceTree = "<group>"; };
+		1FE55C0D173F9707005DCFBE /* file44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file44.png; sourceTree = "<group>"; };
+		1FE55C0E173F9707005DCFBE /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected.png; sourceTree = "<group>"; };
+		1FE55C0F173F9707005DCFBE /* triangleSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangleSmall.png; sourceTree = "<group>"; };
+		1FE55C10173F9707005DCFBE /* unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unselected.png; sourceTree = "<group>"; };
+		1FE55C18173FBD65005DCFBE /* SHUTreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHUTreeViewController.h; sourceTree = "<group>"; };
+		1FE55C19173FBD65005DCFBE /* SHUTreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHUTreeViewController.m; sourceTree = "<group>"; };
+		1FE55C1B173FC10B005DCFBE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FE55BC9173F9647005DCFBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE55C1C173FC10B005DCFBE /* QuartzCore.framework in Frameworks */,
+				1FE55BD0173F9647005DCFBE /* UIKit.framework in Frameworks */,
+				1FE55BD2173F9647005DCFBE /* Foundation.framework in Frameworks */,
+				1FE55BD4173F9647005DCFBE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FE55BC3173F9647005DCFBE = {
+			isa = PBXGroup;
+			children = (
+				1FE55BD5173F9647005DCFBE /* TreeView */,
+				1FE55BCE173F9647005DCFBE /* Frameworks */,
+				1FE55BCD173F9647005DCFBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FE55BCD173F9647005DCFBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FE55BCC173F9647005DCFBE /* TreeView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FE55BCE173F9647005DCFBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FE55C1B173FC10B005DCFBE /* QuartzCore.framework */,
+				1FE55BCF173F9647005DCFBE /* UIKit.framework */,
+				1FE55BD1173F9647005DCFBE /* Foundation.framework */,
+				1FE55BD3173F9647005DCFBE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FE55BD5173F9647005DCFBE /* TreeView */ = {
+			isa = PBXGroup;
+			children = (
+				1FE55C0B173F9707005DCFBE /* image */,
+				1FE55BF5173F96C1005DCFBE /* SHUTreeView */,
+				1FE55BDE173F9647005DCFBE /* SHUAppDelegate.h */,
+				1FE55BDF173F9647005DCFBE /* SHUAppDelegate.m */,
+				1FE55BEA173F9647005DCFBE /* SHUViewController_iPhone.xib */,
+				1FE55BED173F9647005DCFBE /* SHUViewController_iPad.xib */,
+				1FE55BD6173F9647005DCFBE /* Supporting Files */,
+			);
+			path = TreeView;
+			sourceTree = "<group>";
+		};
+		1FE55BD6173F9647005DCFBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FE55BD7173F9647005DCFBE /* TreeView-Info.plist */,
+				1FE55BD8173F9647005DCFBE /* InfoPlist.strings */,
+				1FE55BDB173F9647005DCFBE /* main.m */,
+				1FE55BDD173F9647005DCFBE /* TreeView-Prefix.pch */,
+				1FE55BE1173F9647005DCFBE /* Default.png */,
+				1FE55BE3173F9647005DCFBE /* Default@2x.png */,
+				1FE55BE5173F9647005DCFBE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FE55BF5173F96C1005DCFBE /* SHUTreeView */ = {
+			isa = PBXGroup;
+			children = (
+				1FE55C18173FBD65005DCFBE /* SHUTreeViewController.h */,
+				1FE55C19173FBD65005DCFBE /* SHUTreeViewController.m */,
+				1FE55BF8173F96C1005DCFBE /* SHUTreeView.h */,
+				1FE55BF9173F96C1005DCFBE /* SHUTreeView.m */,
+				1FE55BFA173F96C1005DCFBE /* SHUTreeViewCell.h */,
+				1FE55BFB173F96C1005DCFBE /* SHUTreeViewCell.m */,
+				1FE55C00173F96C1005DCFBE /* SHUTreeNode.h */,
+				1FE55C01173F96C1005DCFBE /* SHUTreeNode.m */,
+			);
+			path = SHUTreeView;
+			sourceTree = "<group>";
+		};
+		1FE55C0B173F9707005DCFBE /* image */ = {
+			isa = PBXGroup;
+			children = (
+				1FE55C0C173F9707005DCFBE /* directory44.png */,
+				1FE55C0D173F9707005DCFBE /* file44.png */,
+				1FE55C0E173F9707005DCFBE /* selected.png */,
+				1FE55C0F173F9707005DCFBE /* triangleSmall.png */,
+				1FE55C10173F9707005DCFBE /* unselected.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FE55BCB173F9647005DCFBE /* TreeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FE55BF2173F9647005DCFBE /* Build configuration list for PBXNativeTarget "TreeView" */;
+			buildPhases = (
+				1FE55BC8173F9647005DCFBE /* Sources */,
+				1FE55BC9173F9647005DCFBE /* Frameworks */,
+				1FE55BCA173F9647005DCFBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreeView;
+			productName = TreeView;
+			productReference = 1FE55BCC173F9647005DCFBE /* TreeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FE55BC4173F9647005DCFBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SHU;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = shuketa;
+			};
+			buildConfigurationList = 1FE55BC7173F9647005DCFBE /* Build configuration list for PBXProject "TreeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FE55BC3173F9647005DCFBE;
+			productRefGroup = 1FE55BCD173F9647005DCFBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FE55BCB173F9647005DCFBE /* TreeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FE55BCA173F9647005DCFBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE55BDA173F9647005DCFBE /* InfoPlist.strings in Resources */,
+				1FE55BE2173F9647005DCFBE /* Default.png in Resources */,
+				1FE55BE4173F9647005DCFBE /* Default@2x.png in Resources */,
+				1FE55BE6173F9647005DCFBE /* Default-568h@2x.png in Resources */,
+				1FE55BEC173F9647005DCFBE /* SHUViewController_iPhone.xib in Resources */,
+				1FE55BEF173F9647005DCFBE /* SHUViewController_iPad.xib in Resources */,
+				1FE55C11173F9707005DCFBE /* directory44.png in Resources */,
+				1FE55C12173F9707005DCFBE /* file44.png in Resources */,
+				1FE55C13173F9707005DCFBE /* selected.png in Resources */,
+				1FE55C14173F9707005DCFBE /* triangleSmall.png in Resources */,
+				1FE55C15173F9707005DCFBE /* unselected.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FE55BC8173F9647005DCFBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE55BDC173F9647005DCFBE /* main.m in Sources */,
+				1FE55BE0173F9647005DCFBE /* SHUAppDelegate.m in Sources */,
+				1FE55C05173F96C1005DCFBE /* SHUTreeView.m in Sources */,
+				1FE55C06173F96C1005DCFBE /* SHUTreeViewCell.m in Sources */,
+				1FE55C09173F96C1005DCFBE /* SHUTreeNode.m in Sources */,
+				1FE55C1A173FBD65005DCFBE /* SHUTreeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FE55BD8173F9647005DCFBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FE55BD9173F9647005DCFBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1FE55BEA173F9647005DCFBE /* SHUViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FE55BEB173F9647005DCFBE /* en */,
+			);
+			name = SHUViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		1FE55BED173F9647005DCFBE /* SHUViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FE55BEE173F9647005DCFBE /* en */,
+			);
+			name = SHUViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FE55BF0173F9647005DCFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FE55BF1173F9647005DCFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FE55BF3173F9647005DCFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreeView/TreeView-Prefix.pch";
+				INFOPLIST_FILE = "TreeView/TreeView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1FE55BF4173F9647005DCFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreeView/TreeView-Prefix.pch";
+				INFOPLIST_FILE = "TreeView/TreeView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FE55BC7173F9647005DCFBE /* Build configuration list for PBXProject "TreeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE55BF0173F9647005DCFBE /* Debug */,
+				1FE55BF1173F9647005DCFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FE55BF2173F9647005DCFBE /* Build configuration list for PBXNativeTarget "TreeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE55BF3173F9647005DCFBE /* Debug */,
+				1FE55BF4173F9647005DCFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FE55BC4173F9647005DCFBE /* Project object */;
+}
